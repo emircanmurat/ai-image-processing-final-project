@@ -1,0 +1,35 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (büyük dosyalar, commit edilmesin)
+*.h5
+*.hdf5
+*.keras
+*.pb
+
+# TensorFlow logs
+logs/
+saved_models/
+
+# Images / outputs
+*.png
+*.jpg
+*.jpeg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Colab temp & generated files
+*.zip
+EOF
